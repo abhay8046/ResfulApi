@@ -1,0 +1,32 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "crm backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhay8046/RESTful-API.git"
+  },
+  "author": "Abhay Dere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhay8046/RESTful-API/issues"
+  },
+  "homepage": "https://github.com/abhay8046/RESTful-API#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "mongo": "^0.1.0",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.2.10",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
